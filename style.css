@@ -1,0 +1,31 @@
+body {
+    background-color: #7ca392;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container {
+    height: 600px;
+    width: 600px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    border-color: #7ca392;
+    display: flex;
+    flex: 1;
+}
+
+.square {
+    border-width: 1px;
+    border-style: solid;
+    border-color: #7ca392;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
